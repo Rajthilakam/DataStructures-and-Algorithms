@@ -1,8 +1,8 @@
 #Time complexity o(n^2)
-arr = [-1,4,5,-2]
+arr = [-1,-4,-5,-2]
 
 def sumarray(arr):
-    max_sum = 0
+    max_sum = arr[0]
     for i in range(len(arr)):
         curr_sum = arr[i]
        
